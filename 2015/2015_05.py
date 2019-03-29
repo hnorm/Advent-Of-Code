@@ -75,5 +75,5 @@ def is_nice_two(s_input):
 if __name__ == "__main__":
     # import doctest
     # doctest.testmod()
-    print(part_one("2015_05_strings.txt"))
-    print(part_two("2015_05_strings.txt"))
+    print(part_one(r"2015\2015_05_strings.txt"))
+    print(part_two(r"2015\2015_05_strings.txt"))

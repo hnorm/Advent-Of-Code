@@ -1,4 +1,4 @@
-boxes = [line.strip().split('x') for line in open("2015_02_dimensions.txt", "r")]
+boxes = [line.strip().split('x') for line in open(r"2015\2015_02_dimensions.txt", "r")]
 
 def part_one(boxes):
 

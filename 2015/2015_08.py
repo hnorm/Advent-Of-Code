@@ -50,5 +50,5 @@ def count_string_two(s_string):
 if __name__ == "__main__":
     # import doctest
     # doctest.testmod()
-    print(part_one("2015_08_strings.txt"))
-    print(part_two("2015_08_strings.txt"))
+    print(part_one(r"2015\2015_08_strings.txt"))
+    print(part_two(r"2015\2015_08_strings.txt"))

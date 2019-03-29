@@ -6,7 +6,7 @@ from itertools import permutations
 
 def part_one(input):
     """
-    >>> part_one("2015_13_test_values.txt")
+    >>> part_one(r"2015\2015_13_test_values.txt")
     330
     """
     values = load_values(input)
@@ -52,7 +52,7 @@ def get_possible_seatings(guests):
 
 def happiness(guest_order, values):
     """
-    >>> values = load_values("2015_13_test_values.txt")
+    >>> values = load_values(r"2015\2015_13_test_values.txt")
     >>> guest_order = ["Alice"]
     >>> happiness(guest_order, values)
     0
@@ -78,5 +78,5 @@ def happiness(guest_order, values):
 if __name__ == "__main__":
     # import doctest
     # doctest.testmod()
-    print(part_one("2015_13_guest_list.txt"))
-    print(part_two("2015_13_guest_list.txt"))
+    print(part_one(r"2015\2015_13_guest_list.txt"))
+    print(part_two(r"2015\2015_13_guest_list.txt"))

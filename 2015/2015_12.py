@@ -5,7 +5,7 @@ import json
 
 
 def part_one():
-    for line in open("2015_12_data.txt"):
+    for line in open(r"2015\2015_12_data.txt"):
         return count(line)
 
 
@@ -37,7 +37,7 @@ def count(input):
 
 
 def part_two():
-    for line in open("2015_12_data.txt"):
+    for line in open(r"2015\2015_12_data.txt"):
         return count_objects(json.loads(line))
 
     
